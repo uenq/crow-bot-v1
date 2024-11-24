@@ -97,7 +97,7 @@ const log = new Discord.MessageEmbed()
 .addField(`\`${prefix}voicelog off\``, "Désactive les logs de l'activité vocale")
 .addField(`\`${prefix}raidlog <on/salon>\``, "Active les logs de l'antiraid dans un salon")
 
-.setFooter(`discord.gg/exodedev-fivem • Prefix actuel : ${prefix}`)
+.setFooter(` • Prefix actuel : ${prefix}`)
 const gestion = new Discord.MessageEmbed()
 .setTitle('Server gestion')
 .setColor(color)
